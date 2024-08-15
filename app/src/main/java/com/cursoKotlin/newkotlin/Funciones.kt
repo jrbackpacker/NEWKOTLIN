@@ -1,6 +1,4 @@
-package com.example.newkotlin
-
-import android.net.wifi.aware.WifiAwareDataPathSecurityConfig
+package com.cursoKotlin.newkotlin
 
 /**
  *

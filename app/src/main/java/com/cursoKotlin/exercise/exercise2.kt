@@ -1,4 +1,4 @@
-package com.example.exercise
+package com.cursoKotlin.exercise
 
 /**
  * Las entradas de cine suelen tener un precio diferente según la edad de los espectadores.
