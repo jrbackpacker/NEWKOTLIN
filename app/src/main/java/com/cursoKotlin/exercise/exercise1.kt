@@ -1,4 +1,4 @@
-package com.example.exercise
+package com.cursoKotlin.exercise
 
 
 /**

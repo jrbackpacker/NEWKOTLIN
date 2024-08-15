@@ -1,4 +1,4 @@
-package com.example.newkotlin
+package com.cursoKotlin.newkotlin
 
 
 fun main() {
