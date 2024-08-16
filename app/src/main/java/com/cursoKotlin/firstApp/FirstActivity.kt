@@ -2,7 +2,6 @@ package com.cursoKotlin.firstApp
 
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.AppCompatButton
@@ -10,11 +9,11 @@ import androidx.appcompat.widget.AppCompatEditText
 
 import com.example.newkotlin.R
 
-class IMCappActivity : AppCompatActivity() {
+class FirstActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_imcapp)
+        setContentView(R.layout.activity_first)
         val btnEntrar = findViewById<AppCompatButton>(R.id.Entrar)
         val etName = findViewById<AppCompatEditText>(R.id.etName)
 
