@@ -9,7 +9,7 @@ import androidx.appcompat.widget.AppCompatEditText
 
 import com.example.newkotlin.R
 
-class FirstActivity : AppCompatActivity() {
+class firstActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()

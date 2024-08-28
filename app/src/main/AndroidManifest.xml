@@ -13,6 +13,9 @@
         android:theme="@style/Theme.NEWKOTLIN"
         tools:targetApi="31">
         <activity
+            android:name="imcCalculator.imcActivity"
+            android:exported="false" />
+        <activity
             android:name="com.cursoKotlin.MenuActivity"
             android:exported="true">
             <intent-filter>
@@ -22,14 +25,13 @@
             </intent-filter>
         </activity>
         <activity
+            android:name="com.cursoKotlin.firstApp.firstActivity"
+            android:exported="false"/>
+
+        <activity
             android:name="com.cursoKotlin.firstApp.ResultActivity"
             android:exported="false" />
 
-        <activity
-            android:name="com.cursoKotlin.firstApp.FirstActivity"
-            android:exported="true">
-
-        </activity>
     </application>
 
 </manifest>
