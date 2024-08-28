@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">NEW KOTLIN</string>
     <string name="title_activity_result">resultActivity</string>
+    <string name="hombre">hombre</string>
 </resources>

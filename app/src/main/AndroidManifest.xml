@@ -7,21 +7,16 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="IMC"
+        android:label="HOLA"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NEWKOTLIN"
         tools:targetApi="31">
         <activity
-            android:name="com.cursoKotlin.firstApp.ResultActivity"
+            android:name="imcCalculator.imcActivity"
             android:exported="false" />
         <activity
-            android:name="com.cursoKotlin.firstApp.resultActivity"
-            android:exported="false"
-            android:label="@string/title_activity_result"
-            android:theme="@style/Theme.NEWKOTLIN" />
-        <activity
-            android:name="com.cursoKotlin.firstApp.IMCappActivity"
+            android:name="com.cursoKotlin.MenuActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,6 +24,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.cursoKotlin.firstApp.firstActivity"
+            android:exported="false"/>
+
+        <activity
+            android:name="com.cursoKotlin.firstApp.ResultActivity"
+            android:exported="false" />
+
     </application>
 
 </manifest>
