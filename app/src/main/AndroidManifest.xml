@@ -7,14 +7,14 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="HOLA"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NEWKOTLIN"
         tools:targetApi="31">
         <activity
             android:name="imcCalculator.imcActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="" />
         <activity
             android:name="com.cursoKotlin.MenuActivity"
             android:exported="true">
@@ -26,7 +26,7 @@
         </activity>
         <activity
             android:name="com.cursoKotlin.firstApp.firstActivity"
-            android:exported="false"/>
+            android:exported="false" />
 
         <activity
             android:name="com.cursoKotlin.firstApp.ResultActivity"
